@@ -8,7 +8,7 @@ Original file is located at
 """
 
 !pip install streamlit
-!pip install pyngrok
+#!pip install pyngrok
 #!pyngrok authtoken 2CP2g7NunlOkqODTXwkyrWdcW1h_89G8agh5Sz7zrJeEDZ6ZF
 
 pip install streamlit-lottie
@@ -80,7 +80,7 @@ pip install streamlit-lottie
    ans = (np.exp(lr.predict(udf))-1)
    return ans
  
- streamlit   
+ #streamlit   
     
  st.header('Price Prediction')
  lottie_coding = load_lottiefile("avocado.json")
