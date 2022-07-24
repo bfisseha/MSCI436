@@ -9,7 +9,7 @@ Original file is located at
 
 !pip install streamlit
 !pip install pyngrok
-!pyngrok authtoken 2CP2g7NunlOkqODTXwkyrWdcW1h_89G8agh5Sz7zrJeEDZ6ZF
+#!pyngrok authtoken 2CP2g7NunlOkqODTXwkyrWdcW1h_89G8agh5Sz7zrJeEDZ6ZF
 
 pip install streamlit-lottie
 
@@ -112,10 +112,10 @@ pip install streamlit-lottie
 # st.write(' ')
 #
 
-!streamlit run app.py &>/dev/null&
-#!streamlit run app.py & npx localtunnel --port 8501
-from pyngrok import ngrok
+#!streamlit run app.py &>/dev/null&
+!streamlit run app.py & npx localtunnel --port 8501
+#from pyngrok import ngrok
 #ngrok config add-authtoken 2CP2g7NunlOkqODTXwkyrWdcW1h_89G8agh5Sz7zrJeEDZ6ZF
 #Setup a tunnel to the streamlit port 8501
-public_url = ngrok.connect(port='8501')
-public_url
+#public_url = ngrok.connect(port='8501')
+#public_url
